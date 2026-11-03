@@ -4802,17 +4802,7 @@
 		)
 		(uuid "21d14c9c-d4a3-4b23-a7a5-86a06d6ac2ab")
 	)
-	(text "Filtro RC opcional: R = 0 ohm y C sin montar por defecto."
-		(exclude_from_sim no)
-		(at 144 232 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left top)
-		)
-		(uuid "23623216-f7b3-40d4-a87b-d02eb80e1ec9")
-	)
+	
 	(text "MOTORES (modulo L298N)"
 		(exclude_from_sim no)
 		(at 281.5 19.5 0)
@@ -5042,17 +5032,7 @@
 		)
 		(uuid "e698e2ce-3ca5-4a52-9eda-13882f06ec17")
 	)
-	(text "Pull-ups opcionales: los modulos\nya traen. Montar si el bus falla\na 400 kHz (cables largos)."
-		(exclude_from_sim no)
-		(at 68.58 203.42 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left top)
-		)
-		(uuid "f06dd62f-4bd4-4a2d-b915-4430982f3cc6")
-	)
+	
 	(text "ToF en 0x30/0x31/0x32 (asignadas\ncon XSHUT): frente y laterales,\npiso de arriba.\n\nMPU6050 en 0x68 (AD0 a GND),\npiso de abajo, por cable.\n\nLas 4 lineas INT se usan\n(lectura por interrupcion)."
 		(exclude_from_sim no)
 		(at 99.06 185.42 0)
@@ -5100,18 +5080,8 @@
 		(color 0 0 0 0)
 		(uuid "9da70ce3-a582-498f-8bb1-e8d34a7db2e3")
 	)
-	(junction
-		(at 187.96 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab495407-579e-4fda-a4f7-094d4eacbed1")
-	)
-	(junction
-		(at 256.54 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb874ee2-8fca-4768-91df-8c5e34ce5429")
-	)
+	
+	
 	(junction
 		(at 203.2 172.72)
 		(diameter 0)
@@ -5418,16 +5388,7 @@
 		)
 		(uuid "1c1d1bf0-6bd3-4fb7-ade9-e41c27abe372")
 	)
-	(wire
-		(pts
-			(xy 187.96 220.98) (xy 187.96 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c70db41-4354-4d04-84bd-32cb30f65bc6")
-	)
+	
 	(wire
 		(pts
 			(xy 33.02 114.3) (xy 30.48 114.3)
@@ -5448,16 +5409,7 @@
 		)
 		(uuid "1cdaec48-3150-4255-aa6f-1a7c581ddb49")
 	)
-	(wire
-		(pts
-			(xy 86.36 187.96) (xy 86.36 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc7029b-f5e0-411d-9c6a-a20fe4e55bbf")
-	)
+	
 	(wire
 		(pts
 			(xy 55.88 43.18) (xy 66.04 43.18)
@@ -5808,16 +5760,7 @@
 		)
 		(uuid "5303cce1-7a86-4821-b16f-fde8038d4c0e")
 	)
-	(wire
-		(pts
-			(xy 73.66 187.96) (xy 73.66 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547eae10-48aa-4488-9af7-42a941b2e395")
-	)
+	
 	(wire
 		(pts
 			(xy 64.77 162.56) (xy 62.23 162.56)
@@ -5928,26 +5871,8 @@
 		)
 		(uuid "6574b074-3aec-40f5-bce8-051756b984e3")
 	)
-	(wire
-		(pts
-			(xy 256.54 220.98) (xy 256.54 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69db1b4b-68d3-4b31-9eb8-3adc44e0f5b0")
-	)
-	(wire
-		(pts
-			(xy 73.66 195.58) (xy 73.66 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4bf355-8b2f-4235-be15-f3753052b255")
-	)
+	
+	
 	(wire
 		(pts
 			(xy 116.84 119.38) (xy 116.84 116.84)
@@ -6068,16 +5993,7 @@
 		)
 		(uuid "79cd865a-afc7-425e-908d-e7d749cb6b68")
 	)
-	(wire
-		(pts
-			(xy 86.36 195.58) (xy 86.36 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7adb776b-43d3-4ca2-8af6-4abc915467ea")
-	)
+	
 	(wire
 		(pts
 			(xy 255.27 66.04) (xy 257.81 66.04)
@@ -7408,16 +7324,7 @@
 		)
 		(uuid "b4c55340-3946-4a03-8d02-9659f2d43133")
 	)
-	(label "SDA"
-		(at 73.66 198.12 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b6cafcc3-0444-47a5-be82-25836fcb6509")
-	)
+	
 	(label "MOT_IN3"
 		(at 308.61 48.26 180)
 		(effects
@@ -7498,16 +7405,7 @@
 		)
 		(uuid "e8c8e2fb-5a91-47c7-9853-6909cb8748df")
 	)
-	(label "SCL"
-		(at 86.36 198.12 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb9a1609-cf84-4ccf-845f-5238f2878eaf")
-	)
+	
 	(label "BAT_LOG_ADC"
 		(at 224.79 53.34 180)
 		(effects
@@ -7981,7 +7879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "auto_remoto:Tira_2x20_CIAA"
+		(property "Footprint" "auto_remoto:Tira_2x20_CIAA_P1"
 			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10344,88 +10242,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "4d4ebc29-c1ea-5b45-ab96-3f8a5475d0e8")
-		(property "Reference" "C8"
-			(at 191.77 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 191.77 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "auto_remoto:C_P5.00"
-			(at 187.96 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24ef55f0-08cc-4cf0-90c5-8747c7f6af87")
-		)
-		(pin "2"
-			(uuid "24939b35-d765-4675-bac5-8d7167cd8b04")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "power:GND")
 		(at 308.61 160.02 270)
@@ -11523,7 +11340,7 @@
 			)
 		)
 		(property "Value" "Encoder der"
-			(at 213.98 220.28 0)
+			(at 235.98 220.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11588,88 +11405,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "781b3d41-398f-575e-839e-fbc6d01711da")
-		(property "Reference" "R9"
-			(at 77.47 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 77.47 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "auto_remoto:R_P10.16"
-			(at 73.66 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e34baee1-bf26-4671-a709-0af923f499dc")
-		)
-		(pin "2"
-			(uuid "1ac74022-55bf-4bed-bc4b-23dbb18ccdd6")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "auto_remoto:ESP32-CAM_lado3V3")
 		(at 345.44 157.48 0)
@@ -11770,86 +11506,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 256.54 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78501b01-540b-478a-baf2-77fc5d8e2bb2")
-		(property "Reference" "#PWR067"
-			(at 256.54 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 254.64 229.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5837690f-df3d-4d41-b569-e4d779613045")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "power:+3V3")
 		(at 29.21 157.48 90)
@@ -12365,7 +12022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "auto_remoto:Tira_2x20_CIAA"
+		(property "Footprint" "auto_remoto:Tira_2x20_CIAA_P2"
 			(at 175.26 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13595,86 +13252,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 86.36 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9640205c-b886-42a0-b14d-e4ddf26b6773")
-		(property "Reference" "#PWR058"
-			(at 86.36 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 84.46 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9398e9b-e880-46af-a714-0faa53c732ca")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "power:GND")
 		(at 158.75 43.18 270)
@@ -14960,168 +14538,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "bf66c1e9-2cc4-5eb3-a799-46ef264f5660")
-		(property "Reference" "R10"
-			(at 90.17 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 90.17 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "auto_remoto:R_P10.16"
-			(at 86.36 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6355059d-6055-4f80-bf87-c0005c0d65db")
-		)
-		(pin "2"
-			(uuid "16e07352-2fd5-47dd-bb11-a783c5ca9e56")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 73.66 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c05eba7e-9fdf-4206-9205-462176bfb724")
-		(property "Reference" "#PWR057"
-			(at 73.66 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 71.76 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "769bfb1e-a645-4704-8b9c-7cbb5607ffbb")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
+	
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 73.66 114.3 0)
@@ -15889,7 +15307,7 @@
 			)
 		)
 		(property "Value" "Encoder izq"
-			(at 145.4 220.28 0)
+			(at 167.4 220.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16355,168 +15773,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1a2d96c-9055-4c65-8db9-c5df3d916aed")
-		(property "Reference" "#PWR064"
-			(at 187.96 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.06 229.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ee91f37-1cb5-4985-b121-98e4ec60e443")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 256.54 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "eb597d30-9310-5e9d-903a-36089c228012")
-		(property "Reference" "C9"
-			(at 260.35 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 260.35 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "auto_remoto:C_P5.00"
-			(at 256.54 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55f75fba-4fbe-4206-94b8-aa5dec80ce98")
-		)
-		(pin "2"
-			(uuid "4b185cf5-24a5-47b1-911b-3e76071c452f")
-		)
-		(instances
-			(project "auto_remoto"
-				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
+	
 	(symbol
 		(lib_id "power:GND")
 		(at 29.21 200.66 270)
@@ -17099,4 +16357,3403 @@
 		)
 	)
 	(embedded_fonts no)
+
+(symbol
+		(lib_id "Device:C")
+		(at 25.0000 230.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bc5fc4c-bfde-4c6c-86d9-97336b46ecc8")
+		(property "Reference" "C8"
+			(at 28.8100 228.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 28.8100 231.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 25.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 25.0000 230.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "448c67e6-f0df-490d-bce5-c8cde8e21487")
+		)
+		(pin "2"
+			(uuid "d706218a-fe44-4a7a-91d4-a1fcc8b3c8b0")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 25.0000 226.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c299c5a-15f1-4134-95e3-8680d0f03e20")
+		(property "Reference" "#PWR0100"
+			(at 25.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 23.1000 221.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 25.0000 226.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ede2da54-72ba-4d16-80c6-1ac8a82cc725")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 25.0000 233.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b3566c7-d7c3-4b04-b704-3d9fc0608320")
+		(property "Reference" "#PWR0101"
+			(at 25.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 23.1000 239.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 25.0000 233.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f63b7f8-8153-4a84-8167-0158d9f515b8")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 37.0000 230.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d78af6bb-3711-431c-8197-937c0d9acb0a")
+		(property "Reference" "C9"
+			(at 40.8100 228.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 40.8100 231.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 37.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 37.0000 230.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6ace314-8cc2-4ca5-a1fa-64bad2aacced")
+		)
+		(pin "2"
+			(uuid "73625700-f409-43f7-b886-b82e201de39d")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 37.0000 226.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dda7f45a-500d-404c-ba33-0ec47f8f2d7c")
+		(property "Reference" "#PWR0102"
+			(at 37.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.1000 221.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 37.0000 226.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e6fafbe-3b4f-4e44-851e-0ecd9f33407d")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 37.0000 233.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2865ed01-a507-4fb4-bd94-31beab19df58")
+		(property "Reference" "#PWR0103"
+			(at 37.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.1000 239.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 37.0000 233.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c5f15b8-de8d-4a2e-a459-91b7d2eabfaa")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 60.0000 230.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f963b56-eeae-4de4-8a17-5228f46720cf")
+		(property "Reference" "C10"
+			(at 63.8100 228.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 63.8100 231.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 60.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 60.0000 230.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be86088a-e80f-4a59-9347-1b62f439e6f6")
+		)
+		(pin "2"
+			(uuid "9fe45538-e82f-4e87-9066-2957f37b3128")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 60.0000 226.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be4ac0de-95a1-4fcc-896f-ced429b6dd2a")
+		(property "Reference" "#PWR0104"
+			(at 60.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 58.1000 221.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 60.0000 226.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02c86c3a-5e7f-4453-8560-defa97559c20")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 60.0000 233.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a0d5e7c-d6c1-4e4f-bfa8-38b6f79c3bf3")
+		(property "Reference" "#PWR0105"
+			(at 60.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.1000 239.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 60.0000 233.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e5efc67-0cc5-4cc1-b6c9-5f8ef5f640d2")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 72.0000 230.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "946d27cd-7dd8-457c-9ae9-0d23f2b9659b")
+		(property "Reference" "C11"
+			(at 75.8100 228.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 75.8100 231.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 72.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 72.0000 230.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7042f59-3e63-4dba-91cc-e9b6b31c4708")
+		)
+		(pin "2"
+			(uuid "50696c6c-5ce3-4ebb-811a-f9ebe6167156")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 72.0000 226.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "481227cf-9bbf-4534-8140-651012dce6a0")
+		(property "Reference" "#PWR0106"
+			(at 72.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 70.1000 221.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 72.0000 226.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6f8f7bb-1d51-47a1-9a65-9c2e33b2353a")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 72.0000 233.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa5c5988-3198-455d-bf8e-ab29c4d158bd")
+		(property "Reference" "#PWR0107"
+			(at 72.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 70.1000 239.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 72.0000 233.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f57b4a69-9139-48c7-9f6a-dda0f99b5818")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 95.0000 230.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f543cfdd-c0c4-426e-bcb8-8e220eb38455")
+		(property "Reference" "C12"
+			(at 98.8100 228.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 98.8100 231.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 95.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 95.0000 230.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "164650fe-204b-4d56-b7a3-9ec3e818a282")
+		)
+		(pin "2"
+			(uuid "1a3131b1-cc5a-401e-9a3f-7b74c7e6f6fb")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 95.0000 226.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecda4534-b4e7-47b7-91d9-a085465372ff")
+		(property "Reference" "#PWR0108"
+			(at 95.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 93.1000 221.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 95.0000 226.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa63d535-3d45-4332-9682-87ee7ff11a6c")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 95.0000 233.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63e3bbaa-441c-4180-8aeb-e05dd66cbeff")
+		(property "Reference" "#PWR0109"
+			(at 95.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.1000 239.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 95.0000 233.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08817ea7-cdf7-46e1-a04a-a334b698298a")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 107.0000 230.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96f8b426-9981-4695-87d0-3c5fdf4b15f4")
+		(property "Reference" "C13"
+			(at 110.8100 228.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 110.8100 231.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 107.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.0000 230.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 107.0000 230.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4d4e1f0-6c4e-4b33-93cc-b9c2bc6abe75")
+		)
+		(pin "2"
+			(uuid "0ec08526-45b1-4766-b8f9-00d7628a220b")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 107.0000 226.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6386eda-8fb9-420c-b27e-69816359f46d")
+		(property "Reference" "#PWR0110"
+			(at 107.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 105.1000 221.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.0000 226.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 107.0000 226.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e53e0a42-db0b-40b3-a8f8-fe7f855a7149")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 107.0000 233.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "753a61d2-a016-40e7-adb3-3fbe1340a95f")
+		(property "Reference" "#PWR0111"
+			(at 107.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.1000 239.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.0000 233.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 107.0000 233.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "400ed0b9-8638-4838-ab4b-7f614dc67c8c")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+(text "TOF #1 (J6): desacoplo en VIN" (exclude_from_sim no) (at 20.0000 215.0000 0) (effects (font (size 1 1)) (justify left top)) (uuid "e174dee1-426c-40ac-a4a0-0316f7cf0732"))
+(text "TOF #2 (J7): desacoplo en VIN" (exclude_from_sim no) (at 55.0000 215.0000 0) (effects (font (size 1 1)) (justify left top)) (uuid "a2d5241d-7b62-4fd0-a9f9-a14ac5f3de94"))
+(text "TOF #3 (J8): desacoplo en VIN" (exclude_from_sim no) (at 90.0000 215.0000 0) (effects (font (size 1 1)) (justify left top)) (uuid "8bb8e2d7-1285-4d80-b4f7-9444538cf99b"))
+
+(symbol
+		(lib_id "Device:C")
+		(at 55.0000 202.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bcbb34a-ac71-49e4-92c2-332daa460762")
+		(property "Reference" "C14"
+			(at 58.8100 200.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 58.8100 203.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 55.0000 202.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.0000 202.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 55.0000 202.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b25f61ad-0f06-4d86-838f-840226319d3a")
+		)
+		(pin "2"
+			(uuid "b4d7ca87-39fd-495b-aee5-f3e27d9b8e05")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 55.0000 198.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e902170e-4c67-4e07-bd42-3b383def5d0b")
+		(property "Reference" "#PWR0112"
+			(at 55.0000 198.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.1000 193.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.0000 198.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.0000 198.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 55.0000 198.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbe87a5c-1cdc-4ce6-8501-fbbc0b1c1814")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 55.0000 205.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4e0711e-79b5-4703-8125-d4127d4d5e3d")
+		(property "Reference" "#PWR0113"
+			(at 55.0000 205.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.1000 211.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.0000 205.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.0000 205.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 55.0000 205.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b42f753f-b105-4d58-8876-5cde0957b6dd")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 67.0000 202.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a417f41-9db3-4be8-9afc-7aa2a7fd9276")
+		(property "Reference" "C15"
+			(at 70.8100 200.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 70.8100 203.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 67.0000 202.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.0000 202.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 67.0000 202.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "716b0018-ec4c-4716-a783-dd087bf3904a")
+		)
+		(pin "2"
+			(uuid "7712c64d-c588-4b9b-9adb-3c92d00f3fb5")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 67.0000 198.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6be55b82-9ede-4e9f-8628-84410600b9b1")
+		(property "Reference" "#PWR0114"
+			(at 67.0000 198.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 65.1000 193.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.0000 198.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.0000 198.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 67.0000 198.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29a27263-1af6-4451-87b2-f6d0b2d0a4d2")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 67.0000 205.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a2794a7-b4d4-44a3-9729-c1b19eecac5c")
+		(property "Reference" "#PWR0115"
+			(at 67.0000 205.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 65.1000 211.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.0000 205.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.0000 205.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 67.0000 205.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab0f2143-0a93-4445-a0ac-14ee14bc20b0")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+(text "GY-521 (J12): desacoplo en VCC" (exclude_from_sim no) (at 50.0000 190.0000 0) (effects (font (size 1 1)) (justify left top)) (uuid "609fef16-fa5a-418f-933a-bf3a743dbd83"))
+
+(symbol
+		(lib_id "Device:C")
+		(at 225.0000 185.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6604056-a6ab-4e9e-b014-ac731bb4461c")
+		(property "Reference" "C16"
+			(at 228.8100 183.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 228.8100 186.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 225.0000 185.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.0000 185.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 225.0000 185.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02fa600b-cb3d-4292-92b9-f73e92ab0b80")
+		)
+		(pin "2"
+			(uuid "61a14bb0-a452-43bb-b33b-f1373fff08b2")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+5V")
+		(at 225.0000 181.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bf5e6f7-e696-454a-b1cf-0a5685b986ab")
+		(property "Reference" "#PWR0116"
+			(at 225.0000 181.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 223.1000 176.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.0000 181.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.0000 181.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 225.0000 181.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05f15f2c-962a-40fd-8ad9-9c4e8a097710")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 225.0000 188.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f250b652-00fe-4ff9-8387-6ada41de37a0")
+		(property "Reference" "#PWR0117"
+			(at 225.0000 188.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.1000 194.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.0000 188.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.0000 188.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 225.0000 188.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3e7e3f4-3d07-4d32-9b37-c3073347c3f6")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 240.0000 185.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89229e3e-fd25-4520-9ddf-c2bcd22eec14")
+		(property "Reference" "C17"
+			(at 243.8100 183.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 243.8100 186.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 240.0000 185.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.0000 185.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 240.0000 185.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43808ea7-8fb7-48c8-a20a-2d5f7cbbf55c")
+		)
+		(pin "2"
+			(uuid "587f714e-cfdf-48e5-ad70-707e9c8319b7")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+5V")
+		(at 240.0000 181.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd902a7c-5736-42ce-b23c-a53fd6ae59eb")
+		(property "Reference" "#PWR0118"
+			(at 240.0000 181.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 238.1000 176.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.0000 181.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.0000 181.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 240.0000 181.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47547fb6-125c-4700-8f8b-088aea097a0f")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 240.0000 188.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be63721e-f262-4d6f-8ef3-c22d61bf746c")
+		(property "Reference" "#PWR0119"
+			(at 240.0000 188.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.1000 194.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.0000 188.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.0000 188.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 240.0000 188.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a527565a-c632-4799-b483-995a1b78f6ae")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+(text "HC-SR04 (J9): desacoplo en VCC" (exclude_from_sim no) (at 230.0000 165.0000 0) (effects (font (size 1 1)) (justify left top)) (uuid "25259e56-a836-45ae-a5ff-4ac5b4d78699"))
+
+(symbol
+		(lib_id "Device:C")
+		(at 155.0000 231.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f83b3e6-a342-4341-a129-5e02fb02a65f")
+		(property "Reference" "C18"
+			(at 158.8100 229.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 158.8100 232.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 155.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 155.0000 231.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "897984a8-9825-4db6-843a-7a2203a791bb")
+		)
+		(pin "2"
+			(uuid "406f3782-fa13-493e-9cee-83f94861f21c")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 155.0000 227.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7739df7-5504-4749-95d9-57ed35b1993f")
+		(property "Reference" "#PWR0120"
+			(at 155.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 153.1000 222.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 155.0000 227.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "260a88a8-cb66-466e-8d9b-4661dfab62fc")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 155.0000 234.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41df4752-9ec5-4ca8-bd8d-8428cb7d2f27")
+		(property "Reference" "#PWR0121"
+			(at 155.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.1000 240.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 155.0000 234.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dce3abee-7a17-4d99-a492-cafc2c820b21")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 170.0000 231.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4bfc7620-b223-4e5b-b29f-464236b80dae")
+		(property "Reference" "C19"
+			(at 173.8100 229.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 173.8100 232.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 170.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 170.0000 231.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e66c1be8-e210-435d-b2d5-022d9096021a")
+		)
+		(pin "2"
+			(uuid "d2bb98e7-2ad9-4fe9-aa90-39588f7260eb")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 170.0000 227.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1193b3e8-c0f5-4c93-9d5c-c2c2c10afd09")
+		(property "Reference" "#PWR0122"
+			(at 170.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.1000 222.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 170.0000 227.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b30e9dc8-3806-424f-aae8-2fe9e7e499f8")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 170.0000 234.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d7d5021-376c-486b-b265-d41f7970fe3d")
+		(property "Reference" "#PWR0123"
+			(at 170.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.1000 240.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 170.0000 234.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7329f27c-f4b4-4034-98ae-ba8310652988")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 220.0000 231.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "372bbb66-fe1e-464a-a55f-3709e9d40c5b")
+		(property "Reference" "C20"
+			(at 223.8100 229.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 223.8100 232.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 220.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 220.0000 231.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c5d807e-79e7-4aa3-a645-25263de43f43")
+		)
+		(pin "2"
+			(uuid "6f84ed3d-dbd9-4d9e-af52-0a06e26e874a")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 220.0000 227.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4715c054-31c9-4aef-8047-768fa25c775e")
+		(property "Reference" "#PWR0124"
+			(at 220.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 218.1000 222.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 220.0000 227.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4dd50223-8fac-4038-adeb-2be56e0308a4")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 220.0000 234.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5869f1fe-b0cf-42b4-9ca2-65f3ff94e2ed")
+		(property "Reference" "#PWR0125"
+			(at 220.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.1000 240.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 220.0000 234.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e77356d-1564-49f4-8214-a0871da0cdaa")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "Device:C")
+		(at 235.0000 231.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acc62b1d-3293-49da-b840-9706852c3d23")
+		(property "Reference" "C21"
+			(at 238.8100 229.7300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 238.8100 232.2700 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "auto_remoto:C_P5.00"
+			(at 235.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.0000 231.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 235.0000 231.0000 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c88ea463-940b-4371-9f73-e639807d82b9")
+		)
+		(pin "2"
+			(uuid "2a4e31a8-7ac2-4df4-b781-ab5ecf3d9a7d")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:+3V3")
+		(at 235.0000 227.1900 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7897f30-8a7c-4adc-9791-fe3617a88666")
+		(property "Reference" "#PWR0126"
+			(at 235.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 233.1000 222.1100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.0000 227.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 235.0000 227.1900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "764936ad-ed86-4fb0-bc0c-d038e5d4fa01")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 235.0000 234.8100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4015cbcc-adf7-4a27-9b2f-3e3a1ae09050")
+		(property "Reference" "#PWR0127"
+			(at 235.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.1000 240.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.0000 234.8100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 235.0000 234.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d878dea-5ff1-487f-a85d-78a4f6939ac6")
+		)
+		(instances
+			(project "auto_remoto"
+				(path "/d3559214-2528-46ef-afac-1f96b72c15cd"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+(text "Encoder izq (J10): desacoplo VCC" (exclude_from_sim no) (at 180.0000 223.0000 0) (effects (font (size 1 1)) (justify left top)) (uuid "0ef3c8f1-ed84-4ecd-bc71-2c918086512d"))
+(text "Encoder der (J11): desacoplo VCC" (exclude_from_sim no) (at 241.0000 223.0000 0) (effects (font (size 1 1)) (justify left top)) (uuid "86e2202d-607a-4c2a-8d4d-01e9e224fdd9"))
 )
