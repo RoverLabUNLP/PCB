@@ -713,7 +713,7 @@
         "uuid": "d3559214-2528-46ef-afac-1f96b72c15cd"
       }
     ],
-    "used_designators": "",
+    "used_designators": "BT1_MOT1,BT2_LOG1",
     "variants": []
   },
   "sheets": [

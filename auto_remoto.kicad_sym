@@ -1160,13 +1160,7 @@
         (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27)))))
-      (pin
-        passive
-        line
-        (at -8.89 -5.08 0)
-        (length 2.54)
-        (name "IO12" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27)))))
+      
       (pin
         passive
         line
@@ -1174,13 +1168,7 @@
         (length 2.54)
         (name "IO13" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27)))))
-      (pin
-        passive
-        line
-        (at -8.89 -10.16 0)
-        (length 2.54)
-        (name "IO15" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27)))))
+      
       (pin
         passive
         line
@@ -1188,20 +1176,8 @@
         (length 2.54)
         (name "IO14" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27)))))
-      (pin
-        passive
-        line
-        (at -8.89 -15.24 0)
-        (length 2.54)
-        (name "IO2" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27)))))
-      (pin
-        passive
-        line
-        (at -8.89 -17.78 0)
-        (length 2.54)
-        (name "IO4" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27)))))))
+      
+      ))
   (symbol
     "ESP32-CAM_lado3V3"
     (pin_names (offset 1.016))
