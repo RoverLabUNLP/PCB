@@ -1,0 +1,5 @@
+Copia independiente del proyecto original auto_remoto.
+
+El contorno de la PCB se ensanchó 5 mm a la izquierda y 5 mm a la derecha: el ancho entre extremos pasó de aproximadamente 85,85 mm a 95,85 mm. El largo, los componentes, los conectores P1/P2, los agujeros de montaje y las pistas existentes conservan sus posiciones.
+
+El esquemático y las bibliotecas son copias independientes. El PDF es una copia del esquemático original. El diseño conserva conexiones pendientes: consultar drc_inicial.txt antes de fabricar.

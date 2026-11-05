@@ -7019,7 +7019,7 @@
 	(footprint "auto_remoto:Pads_ESP32_CAM"
 		(layer "F.Cu")
 		(uuid "83df3eff-705f-4cf4-82b3-62fae12eaff7")
-		(at 117.8 165.5 90)
+		(at 114.15 164.5 90)
 		(descr "Tira hembra 1x8 (ESP32-CAM), pads 2,5x1,7, agujero 0,7")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J3"
@@ -14027,7 +14027,7 @@
 	(footprint "auto_remoto:CP_D6.3_P2.50"
 		(layer "F.Cu")
 		(uuid "faf99f9c-a667-4522-8277-a085856ca0ac")
-		(at 106.68 96.52)
+		(at 108.5 81)
 		(descr "Electrolitico D6,3 paso 2,5, pads 1,7x2,5, agujero 0,7")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
 		(property "Reference" "C6"

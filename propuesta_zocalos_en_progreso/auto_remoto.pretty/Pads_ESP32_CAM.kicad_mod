@@ -1,0 +1,42 @@
+(footprint "Pads_ESP32_CAM" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Pads para soldar cables ESP32-CAM, paso 2,54 mm, agujeros 0,7 mm")
+  (tags "Through hole socket strip THT 1x08 2.54mm single row")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -2.77) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 787583fa-4ead-485a-93c3-e4cce987e078)
+  )
+  (fp_text value "Pads_ESP32_CAM" (at 0 20.55) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2fc9f95e-394c-4612-a54f-dfdb031a522d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 8.89 90) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1e39497f-5e0d-4030-8f11-4c7383e35051)
+  )
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (pad "1" thru_hole rect (at 0 0) (size 2.5 1.7) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 90d195a1-4fe3-499f-9fed-0d63b590332b))
+  (pad "2" thru_hole oval (at 0 2.54) (size 2.5 1.7) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 36210ed9-b203-4d6e-abd5-b9ed0bfc6a46))
+  
+  (pad "4" thru_hole oval (at 0 7.62) (size 2.5 1.7) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 73c475d0-6b6d-4d47-bf40-19face2271fc))
+  
+  (pad "6" thru_hole oval (at 0 12.7) (size 2.5 1.7) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp ebaf750f-b3e7-417a-909c-bbd8c87be735))
+  
+  
+  
+)

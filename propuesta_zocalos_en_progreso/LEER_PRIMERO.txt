@@ -1,0 +1,9 @@
+PROPUESTA EN PROGRESO — NO FABRICAR
+
+J3 monta una ESP32-CAM en dos tiras hembra de 8 pines separadas 22,86 mm. El extremo de la cámara apunta hacia el borde inferior de la PCB; la lente del módulo queda perpendicular a su placa, no mira horizontalmente solo por girar el módulo. La envolvente aproximada figura en F.Fab y los zócalos tienen modelos 3D. Confirmar las dimensiones reales con el módulo antes de fabricar.
+
+Para liberar el espacio se movieron J8, J12, C10, C11, C12, C13, C14 y C15. Los pads 1, 2, 4 y 6 de J3 son los cuatro conectados en el esquemático. Las pistas del borrador son de 1 mm en B.Cu.
+
+Faltan 35 conexiones por rutear. No se agregaron nuevos puentes; cuando se agreguen deberán representarse como resistencias de 0 ohmios en el esquemático y en la PCB. No fabricar antes de completarlos y verificar ERC, DRC y montaje. El informe está en drc_final.txt.
+
+El proyecto original se encuentra en la carpeta padre y no fue reemplazado.
