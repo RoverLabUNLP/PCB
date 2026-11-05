@@ -6811,7 +6811,7 @@
 		)
 		(uuid "29ba9b0b-ec52-474b-a960-2ff617e23373")
 	)
-	(label "BAT_MOT_ADC"
+	(label "BAT_LOG_ADC"
 		(at 224.79 55.88 180)
 		(effects
 			(font
@@ -7211,7 +7211,7 @@
 		)
 		(uuid "e8c8e2fb-5a91-47c7-9853-6909cb8748df")
 	)
-	(label "BAT_LOG_ADC"
+	(label "BAT_MOT_ADC"
 		(at 224.79 53.34 180)
 		(effects
 			(font
