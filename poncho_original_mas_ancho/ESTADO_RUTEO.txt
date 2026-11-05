@@ -1,0 +1,7 @@
+RUTEO EN PROGRESO — NO FABRICAR
+
+R12 es una resistencia de 0 Ω que une la salida de R10 al tramo de 3V3_SENS que alimenta el grupo de J6 y C8/C9. La red 3V3_SENS todavía tiene otras islas desconectadas: no todos los sensores reciben alimentación.
+
+R13 es una resistencia de 0 Ω que conecta P2-38 con R7-2 del circuito del encoder izquierdo. El tramo entre J10-3 y R7-1 aún está pendiente, por lo que la señal completa del encoder aún no está terminada.
+
+Todos los componentes preexistentes conservaron ubicación y orientación. R12 y R13 están en el esquemático y la PCB. Las pistas actuales son de 1 mm en B.Cu. KiCad informa 26 conexiones pendientes, sin otras violaciones DRC ni discrepancias con el esquemático. El ERC tiene 33 advertencias. Es necesario terminar el ruteo y verificar DRC/ERC antes de fabricar.

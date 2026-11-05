@@ -1,0 +1,112 @@
+ERC report (2026-11-05T07:26:30, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(25.00 mm, 226.19 mm): Symbol C8 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(25.00 mm, 233.81 mm): Symbol #PWR0101 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'Battery' doesn't match copy in library 'Device'
+    ; warning
+    @(25.40 mm, 40.64 mm): Symbol BT1_MOT1 [Battery]
+[lib_symbol_mismatch]: Symbol 'Battery' doesn't match copy in library 'Device'
+    ; warning
+    @(25.40 mm, 78.74 mm): Symbol BT2_LOG1 [Battery]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(37.00 mm, 226.19 mm): Symbol C9 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(37.00 mm, 233.81 mm): Symbol #PWR0103 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(55.00 mm, 198.19 mm): Symbol C14 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(55.00 mm, 205.81 mm): Symbol #PWR0113 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(60.00 mm, 226.19 mm): Symbol C10 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(60.00 mm, 233.81 mm): Symbol #PWR0105 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(67.00 mm, 198.19 mm): Symbol C15 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(67.00 mm, 205.81 mm): Symbol #PWR0115 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(72.00 mm, 226.19 mm): Symbol C11 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(72.00 mm, 233.81 mm): Symbol #PWR0107 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(95.00 mm, 226.19 mm): Symbol C12 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(95.00 mm, 233.81 mm): Symbol #PWR0109 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(107.00 mm, 226.19 mm): Symbol C13 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(107.00 mm, 233.81 mm): Symbol #PWR0111 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 227.19 mm): Symbol C18 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 234.81 mm): Symbol #PWR0121 Hidden pin 1 [GND, Power input, Line]
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(158.75 mm, 40.64 mm): Symbol #PWR014 Hidden pin 1 [+3V3, Power input, Line]
+    @(345.44 mm, 266.70 mm): Label '+3V3'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(170.00 mm, 227.19 mm): Symbol C19 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(170.00 mm, 234.81 mm): Symbol #PWR0123 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(220.00 mm, 227.19 mm): Symbol C20 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(220.00 mm, 234.81 mm): Symbol #PWR0125 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(225.00 mm, 181.19 mm): Symbol C16 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(225.00 mm, 181.19 mm): Symbol #PWR0116 Hidden pin 1 [+5V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(225.00 mm, 188.81 mm): Symbol #PWR0117 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(235.00 mm, 227.19 mm): Symbol C21 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(235.00 mm, 234.81 mm): Symbol #PWR0127 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(240.00 mm, 181.19 mm): Symbol C17 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(240.00 mm, 181.19 mm): Symbol #PWR0118 Hidden pin 1 [+5V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(240.00 mm, 188.81 mm): Symbol #PWR0119 Hidden pin 1 [GND, Power input, Line]
+
+ ** ERC messages: 33  Errors 0  Warnings 33
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
